@@ -1,0 +1,370 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: h1font;
+    src: url(fonts/PTSerif-Regular.ttf);
+}
+ #home{
+    /* width: 100%; */
+    background-image: url(images/1.jpg);
+    background-size: 100%100%;
+    height: 100vh;
+    margin-bottom: 50px;
+    /* display: inline-block; */
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-img{
+    width: 27%;
+    margin: 0 48px;
+    display: inline-block;
+}
+.navbar img{
+    filter: brightness(0) invert(1);
+    width: 150px;
+   padding:  20px 50px 0px; 
+}
+.navbar-list{
+    display: inline-block;
+    width: 60%;
+    margin:0 48px;
+    text-align: center;
+}
+.navbar ul{
+    display:inline;
+    list-style-type: none; 
+  
+   
+}
+.navbar li {
+    display:inline;
+  }
+  
+  .navbar li a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px 25px;
+    text-decoration: none;
+  }
+ .navbar li a:hover:not(.active) {
+    color: #927b57;
+  }
+  .active {
+   border-top: #9e835c solid 3px;
+  }
+  
+.caption{
+    margin: auto;
+    text-align: center;
+    color:white;
+    padding: 200px 0;
+   
+}
+.caption h1{
+    font-family: h1font;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 20px 0;
+    
+ 
+}
+.caption p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch:condensed;
+}
+.caption button{
+    background-color: transparent;
+    margin-top: 30px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+   
+}
+.caption button.btn1{
+    background-color: #8e7754;
+    border:#8e7754 solid 2px;
+}
+.caption button.btn2{
+    border: white solid 2px;
+}
+.caption button:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    border: white;
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+#who{
+    margin: 50px;
+   
+}
+.who-container{
+    width: 90%;
+    margin: auto;
+}
+.who-img{
+    display: inline-block;
+    width: 48.4%;
+    margin:  50px 0;
+    margin-right: 15px;
+   
+   
+}
+.who-img img{
+    width: 100%;
+   
+}
+.who-info{
+    
+    display: inline-block;
+    width: 48.4%;
+    padding-left: 15px;
+    vertical-align :top;
+    margin-top: 50px;
+}
+.who-info h3{
+    font-family: h1font;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.who-info p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.8;
+}
+.main-prag{
+    margin-left: 50px ;
+}
+.who-info div{
+   margin-left : 35px;
+   margin-top: 20px;
+}
+/* -------------------------------------------Location Section-------------------------------------------------- */
+#location{
+    background-color: whitesmoke;
+    margin:50px 0;
+    padding: 50px 0; 
+}
+.location-container{
+    width: 90%;
+    margin: auto;
+   
+}
+.location-info{
+    display: inline-block;
+    width: 49.4%;
+    vertical-align :100px;
+    margin-right: 10px;
+   
+}
+.location-info h2{
+    margin: 20px 50px;
+    font-family: h1font;
+    font-size: 30px;
+    font-weight: 100;
+}
+.location-info p{
+    line-height: 1.8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin: 20px 50px;
+
+}
+.location-img{
+    display: inline-block;
+    width: 49.4%;
+    margin: 50px 0;
+    
+}
+.location-img img{
+    width: 600px;
+    height: 450px;
+}
+/* -------------------------------------------------- our baking saction -------------------------------------*/
+#baking{
+    padding: 20px 0;
+}
+.baking-text{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.baking-text h2{
+    font-family: h1font;
+    font-size: 30px;
+    font-weight: 300;
+    padding:  5px 20px 20px;
+}
+.baking-text p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin: 20px 20px;
+    color:gray;
+}
+ .baking-products{
+     padding: 40px 40px; 
+     width: 80%;
+     margin: auto;
+     margin-bottom: 50px;
+} 
+.baking-product{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 0 20px;
+}
+.baking-product img{
+    width: 100%;
+}
+.baking-product h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200px;
+    margin: 30px 0;
+}
+.baking-product p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.8;
+}
+.clr{
+    clear: both;
+}
+/* ---------------------------------------------------contact section------------------------------------------ */
+#contact{
+    background-color:whitesmoke;
+    padding: 48px 0;
+}
+.contact-container{
+    
+    margin: auto;
+}
+.contact-info{
+    float: left;
+    width: 50%;
+    margin: 50px 0;
+    padding-left: 50px;
+}
+.contact-info h2{
+    font-family: h1font;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0 50px;
+    margin-top: 10px;
+    
+}
+.contact-info p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.9;
+    margin: 20px 50px;
+    width: 70%;
+}
+.contact-info .img-prag{
+    margin-left: 40px;
+}
+.contant-map{
+    float: left;
+    width:35%;
+   padding: 50px 10px;
+
+}
+/* -------------------------------------------------------------- footer main--------------------------------- */
+#footer-main{
+    background-color:rgb(64,61,56);
+    padding: 45px 0;
+}
+.footer-main-container{
+    /* background-color: #8e7754; */
+    margin: auto;
+    width: 90%;
+
+}
+.fsection{
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+.fsection h4 {
+    font-family: h1font;
+    /* font-size: 30px; */
+    font-weight: 100;
+    margin: 20px 0;
+    color:#fff;
+} 
+.fsection p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.9;
+    color: rgba(255,255, 255, 0.4);
+    margin-top: 20px;
+}
+
+.fsection-4{
+    background-image: url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: 20px 120px;
+    background-size: contain;
+    
+}
+/* ------------------------------------------------------- footer bottom----------------------------------------- */
+#footer-bottom{
+    background-color: #353330;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#footer-bottom img{
+    filter: brightness(0) invert(1);
+    margin-top: 50PX;
+    margin-bottom: 20PX;
+    width: 350PX;
+}
+#footer-bottom p{
+    color: rgba(255,255, 255, 0.4);
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+.fa {
+    color:rgba(255,255, 255, 0.4);
+    padding: 10px;
+    font-size: 50px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border-radius: 50%;
+    background: rgb(64,61,56)
+
+}
+.fa-facebook:hover{
+    background: #3B5998;
+    color: white;
+}
+.fa-google:hover{
+    background: #dd4b39;
+    color: white;    
+}
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+  }
